@@ -7,6 +7,8 @@
 }
 
 *, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -69,4 +71,25 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
-}/*# sourceMappingURL=style.css.map */
+}
+
+body {
+  background: #060A16;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*=__container] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
