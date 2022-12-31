@@ -85,14 +85,15 @@ body {
   min-height: 100%;
   overflow: hidden;
 }
-.wrapper .blure-box {
+
+.blure-box {
   position: fixed;
   top: -35px;
   left: 223px;
   width: 514px;
   height: 514px;
   background: #72339B;
-  filter: blur(300px);
+  filter: blur(200px);
 }
 
 .main {
